@@ -1,0 +1,10 @@
+{% extends "08.cctv.html" %}
+{% block title %}서울시 구별CCTV/인구 현황{% endblock %}
+<body style="margin: 40px;">
+    <h3>서울시 구별 CCTV 설치댓수</h3>
+    <hr>
+    <iframe src="{{url_for('static', filename='img/cctv.html')}}" frameborder="1"
+        width="800" height="500"></iframe>
+    <button onclick="location.href='/cctv'">재실행</button>
+</body>
+</html>
