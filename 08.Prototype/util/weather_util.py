@@ -16,5 +16,3 @@ def get_weather(static_path, lat, lng):
     html = f'''<img src="{icon_url}" height="32"><strong>{desc}</strong>,
             온도: <strong>{temp:.1f}</strong>&#8451'''
     return html
-
-    
